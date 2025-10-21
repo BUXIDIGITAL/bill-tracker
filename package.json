@@ -2,6 +2,7 @@
   "name": "bill-tracker",
   "private": true,
   "version": "1.0.0",
+  "description": "Dark-themed subscription and bill tracker built with Next.js App Router.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,10 @@
     "lint": "next lint",
     "format": "prettier --write ."
   },
+  "engines": {
+    "node": "^18.18.0 || >=20.0.0"
+  },
+  "packageManager": "npm@10.7.0",
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.5",
